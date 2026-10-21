@@ -1,0 +1,5 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TraceLens</title><link rel="stylesheet" href="/styles.css"></head>
+<body><main><header><div><p class="eyebrow">OBSERVABILITY WORKSPACE</p><h1>TraceLens</h1><p>Distributed traces and evidence-based incident analysis.</p></div><button id="analyze">Analyze incident</button></header>
+<section id="summary" class="cards"></section><section class="panel"><div class="toolbar"><h2>Recent traces</h2><div><select id="status"><option value="">All statuses</option><option value="200">200</option><option value="400">400+</option><option value="500">500+</option></select><button id="refresh">Refresh</button></div></div><div id="traces"></div></section><section id="analysis" class="panel hidden"><h2>Incident analysis</h2><pre id="analysis-body"></pre></section></main><script src="/app.js"></script></body></html>

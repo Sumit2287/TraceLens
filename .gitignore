@@ -1,0 +1,64 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment Files
+.env
+.env.*
+!.env.example
+
+# Build directories
+dist/
+build/
+
+# Logs
+logs
+*.log
+pids
+*.pid
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Test files
+test/reports/
+reports/
+# Mocha and test reports
+mochawesome-report/
+mochawesome-coverage/
+
+# Dependency directories
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# JetBrains IDEs
+.idea/
+
+# Dependency lockfiles
+yarn.lock
+
+# PM2 logs
+pids/
+*.pid
+
+# Bower dependencies
+bower_components/
+
+# Logs from application
+*.log
